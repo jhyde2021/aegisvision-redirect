@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Motion LAB — サイト移転のお知らせ</title>
+<link rel="canonical" href="https://motionlab.tokyo/">
+<meta http-equiv="refresh" content="0; url=https://motionlab.tokyo/">
+<script>
+  // 同じページ名のまま新しいサイトへ（例：/experience-pricing → motionlab.tokyo/experience-pricing）
+  var p = location.pathname === "/" ? "/" : location.pathname;
+  location.replace("https://motionlab.tokyo" + p + location.search + location.hash);
+</script>
+<style>
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;
+       background:#000;color:#fff;font-family:"Hiragino Sans","Noto Sans JP",sans-serif;text-align:center}
+  a{color:#fff;border:1px solid #fff;padding:12px 28px;text-decoration:none;letter-spacing:.1em;display:inline-block;margin-top:24px}
+  p{opacity:.8}
+</style>
+</head>
+<body>
+  <div>
+    <h1 style="font-weight:500">Motion LAB</h1>
+    <p>Webサイトは移転しました。</p>
+    <a href="https://motionlab.tokyo/">motionlab.tokyo へ</a>
+  </div>
+</body>
+</html>
